@@ -93,6 +93,9 @@ gem 'mailcatcher'
 # PagSeguro
 gem "pagseguro-oficial", "~> 2.5.0"
 
+# Prawn Handler for Rails. Handles and registers pdf formats.
+gem 'prawn-rails'
+
 
 
 
