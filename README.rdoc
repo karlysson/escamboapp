@@ -43,3 +43,6 @@ gem install prawn
 
 
 ##### Para Gerar o pdf dos anúncios estou usando a gem Wicked PDF
+
+
+## Para Gerar Graficos utilizei a gem Chartkick

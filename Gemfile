@@ -100,6 +100,8 @@ gem 'prawn-rails'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 
+# Create beautiful JavaScript charts with one line of Ruby
+gem "chartkick"
 
 
 # Use sqlite3 as the database for Active Record
