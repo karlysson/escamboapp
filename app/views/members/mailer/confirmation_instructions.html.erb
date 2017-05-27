@@ -1,0 +1,5 @@
+<p><%= t('messages.welcome') %> <%= @resource.profile_member.first_name %>!</p>
+
+<p> <%= t('messages.verify_your_account_through_the_link_below') %>:</p>
+
+<p><%= link_to t('messages.confirmation_my_acount'), confirmation_url(@resource, confirmation_token: @token) %></p>

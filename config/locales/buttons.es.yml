@@ -1,0 +1,15 @@
+es:
+  buttons:
+    new: Nuevo
+    save: Salvar
+    show: Mostrar
+    edit: Editar
+    destory: Destruir
+    back: Regreso
+    home: Principio
+    close: Cerca
+    send: Enviar
+    send_message: Enviar Mensaje
+    search: Buscar
+    buy: Comprar
+    sign_in_to_shop: Iniciar sesión para comprar

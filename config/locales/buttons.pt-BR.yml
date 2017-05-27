@@ -1,0 +1,15 @@
+'pt-BR':
+  buttons:
+    new: Novo
+    save: Salvar
+    show: Mostrar
+    edit: Editar
+    destory: Apagar
+    back: Voltar
+    home: Inicio
+    close: Fechar
+    send: Enviar
+    send_message: Enviar Mensagem
+    search: Pesquisar
+    buy: Comprar
+    sign_in_to_shop: Efetue o login para comprar

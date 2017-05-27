@@ -1,0 +1,11 @@
+'pt-BR':
+  menu:
+    profile: Perfil
+    exit: Sair
+    login: Entrar
+    register: Cadastre-se
+    language: Idioma
+    english: Inglês
+    spanish: Espanhol
+    portuguese: Português
+

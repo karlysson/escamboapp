@@ -1,0 +1,60 @@
+en:
+  labels:
+    login: Login
+    identify_yourself: Identify yourself
+    remember_me: Remember_me
+    forgot_password: Forgot your password?
+    dont_have_an_account: Do not have an account?
+    sign_up: Sign up
+    sign_up_here: Sign up here
+    sign_in_with_facebook: Sign in with Facebook
+    enter: Enter
+    email: E-mail
+    password: Password
+    message: Message
+    new_message: New Message
+    send_message_to: Send message to %{name}
+    recipient: Recipient
+    subject: Subject
+    let_your_comment: Leave your comment
+    comment: Comment
+    comments: Comments
+    reviews: Reviews
+    login_to_comment: Login to comment
+    er_diagram: ER Diagram
+    send_me_reset_password: Send me instructions to reset the password
+    recover_password: Recover Password
+    edit: Edit
+    update: Update
+    name_admin: Name Administrator
+    email_admin: E-mail do Administrator
+    password_confirmation: Password Confirmation
+    disabled: Disabled
+    actions: Actions
+    yesterday: Yesterday
+    dashboard: Dashboard
+    categories: Categories
+    category: Category
+    admin: Administrator
+    sign_in: Sign in
+    open: Open
+    first_name: First Name
+    second_name: Second Name
+    close: Close
+    to_send: To Send
+    title: Title
+    code: Code
+    image: Image
+    price: Price
+    date: Date
+    time: Time
+    amount: Amount
+    responsive_timeline: Responsive Timeline
+    search: Search
+    search_for: Search for...
+    brazil: Portugueses
+    english: English
+    spanish: Spanish
+    my_ads: My Listings
+    new_ad: New ad
+    my_data: My Data

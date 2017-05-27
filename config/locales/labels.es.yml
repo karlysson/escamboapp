@@ -1,0 +1,60 @@
+es:
+  labels:
+    login: Iniciar sesión
+    identify_yourself: Identifíquese
+    remember_me: Recuérdame
+    forgot_password: Olvidaste tu contraseña?
+    dont_have_an_account: No tienes una cuenta?
+    sign_up: Regístrate
+    sign_up_here: Registrate aquí
+    sign_in_with_facebook: Ingresar con Facebook
+    enter: Entrar
+    email: E-mail
+    password: Contraseña
+    message: Mensaje
+    new_message: Nuevo Mensaje
+    send_message_to: Enviar un mensaje a %{name}
+    recipient: Destinatarios
+    subject: Asunto
+    let_your_comment: Deje su comentario
+    comment: Comentario
+    comments: Comentarios
+    reviews: Opiniones
+    login_to_comment: Inicia sesión para comentar
+    er_diagram: Diagrama de relación de Entidad
+    send_me_reset_password: Envíame instrucciones para restablecer la contraseña
+    recover_password: Recuperar contraseña
+    edit: Editar
+    update: Actualización
+    name_admin: Nombre del administrador
+    email_admin: Correo electrónico del administrador
+    password_confirmation: Confirmación de la contraseña
+    disabled: Discapacitado
+    actions: Acciones
+    yesterday: Ayer
+    dashboard: Dashboard
+    categories: Categorias
+    category: Categoria
+    admin: Administradores
+    sign_in: Inicia sesión
+    open: Entrar
+    first_name: Primer nombre
+    second_name: Segundo nombre
+    close: Cerca
+    to_send: Enviar
+    title: Título
+    code: Código
+    image: Imagen
+    price: Precio
+    date: Fecha
+    time: Horario
+    amount: Cantidad
+    responsive_timeline: Tiempo de respuesta
+    search: Investigación
+    search_for: Investigación por...
+    brazil: Portugués
+    english: Inglés
+    spanish: Español
+    my_ads: Mis anuncios
+    new_ad: Nuevo Anuncio
+    my_data: Mis datos

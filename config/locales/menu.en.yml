@@ -1,0 +1,11 @@
+en:
+  menu:
+    profile: Profile
+    exit: Exit
+    login: Login
+    register: Register
+    language: Language
+    english: English
+    spanish: Spanish
+    portuguese: Portuguese
+

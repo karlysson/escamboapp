@@ -1,0 +1,7 @@
+<p><%= t('messages.hello') %>, <%= @resource.profile_member.first_name %>!</p>
+
+<p><%= t('messages.your_account_blocked_because_of_too_many_unsucessful') %></p>
+
+<p><%= t('messages.click_the_link_below_to_unlock_your_account') %></p>
+
+<p><%= link_to t('messages.unblock_my_account'), unlock_url(@resource, unlock_token: @token) %></p>

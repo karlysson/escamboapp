@@ -1,0 +1,11 @@
+es:
+  menu:
+    profile: Perfil
+    exit: salida
+    login: iniciar sesión
+    register: Registrar Hasta
+    language: Idioma
+    english: Inglés
+    spanish: español
+    portuguese: portugués
+

@@ -1,0 +1,80 @@
+en:
+  messages:
+    confirm: Confirm?
+    confirm_with: Do you really want to delete (<b>%{item}</b>)?
+    listing: Listing %{model}
+    editing: Editing %{model}
+    new: New %{model}
+    errors: occurred...
+    created: Item created successfully!
+    created_with: "%{item} Was created successfully!"
+    updated: Item successfully updated!
+    updated_with: "%{item} Was updated successfully!"
+    destroyed: Item deleted successfully!
+    destroyed_with: "%{item} Was deleted successfully!"
+    not_authorized: You are not authorized to perform this action.
+    email_delivered: Email successfully sent!
+    email_not_delivered: Error sending email. Try again
+    please_sign_in: Please Sign in
+    remember: Remember
+    log_in: Login
+    your_updated_data: Your data has been updated by
+    welcome: Welcome
+    you_can_confirm_your_account_email: You can confirm the email of your account through the link below
+    hello: Hello
+    notify_your_password_has_been_changed: We've notified you that your password has been changed.
+    link_to_change_your_password: Someone requested a link to change your password. You can do this through the link below.
+    you_request_this: If you did not request this, please ignore this email.
+    your_not_password_change: Your password will not be changed until you access the link above and create a new one.
+    change_your_password: Change your password
+    change_my_password: Change my password
+    forgot_your_password?: Forgot your password?
+    send_me_reset_password_instructions: Send me reset password instructions
+    we_need_your_current_password_to_confirm_your_changes: We need your current password to confirm changes
+    cancel_my_account: To cancel my account
+    sign_up: Sign up
+    confirmation_instructions?: Did not receive verification instructions?
+    unlock_instructions?: Did not receive the unlock instructions?
+    resend_unlock_instructions: Resend unlock instructions
+    example_category: Ex Pet
+    new_comments!: New Reviews
+    view_details: see details
+    new_tasks: New Tasks
+    new_buy: New buy
+    support_tickets: Support Tickets
+    area_chart_example: Area chart example.
+    another_action: Another Action
+    something_else_here: Someting else here
+    separated_link: separated link
+    notifications_panel: Notifications Panel
+    new_comment: New Comment
+    new_followers: New Followers
+    message_sent: Message Sent
+    minutes_ago: Minutes Ago
+    server_rebooted: Server Rebooted
+    server_crashed: Server Crashed
+    server_not_responding: Server Not Responding
+    new_order: New Order
+    payment_received: Payment Received
+    view_all_alerts: View All Alerts
+    bar_chart_example: Bar Chart Example
+    donut_chart_example: Donut Chart Example
+    diagram: Diagram ER
+    resend_confirmation_instructions: Resend Confirmation Instructions
+    confirmation_my_acount: Confirmation my Account
+    reset_password: Reset Password
+    donot_have_an_account: Donot have an account!
+    leave_your_comment: Leave your comment
+    sign_in_to_comment: Sign in to comment
+    editing_ad: Editing Ad
+    listing_ads: Listing Ads
+    your_account_blocked_because_of_too_many_unsucessful: Your account has been blocked because of too many unsuccessful login attempts.
+    click_the_link_below_to_unlock_your_account: Click the link below to unlock your account
+    unblock_my_account: Unblock my Account
+    requested_link_to_change_password: Someone requested a link to change the password. You can do this through the link below
+    alter_my_password: Alter my password
+    if_you_not_order_this_ignore_this_email: If you did not order this, please ignore this email
+    your_password_will_not_be_changed_if: Your password will not be changed if you do not access this link and register a new password
+    notification_your_password_has_changed: We're contacting you to notify you that your password has been changed
+    verify_your_account_through_the_link_below: Verify your account through the link below
+

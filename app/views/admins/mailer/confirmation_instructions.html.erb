@@ -1,0 +1,5 @@
+<p><%= t('messages.welcome') %> <%= @email %>!</p>
+
+<p><%= t('messages.you_can_confirm_your_account_email') %>:</p>
+
+<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>

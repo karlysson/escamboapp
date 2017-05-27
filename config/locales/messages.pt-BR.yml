@@ -1,0 +1,80 @@
+'pt-BR':
+  messages:
+    confirm: Tem certeza?
+    confirm_with: Você deseja realmente excluir (<b>%{item}</b>)?
+    listing: Listando %{model}
+    editing: Editando %{model}
+    new: Novo %{model}
+    errors: ocorreram...
+    created: Item criado com sucesso!
+    created_with: "%{item} foi criado com sucesso!"
+    updated: Item atualizado com sucesso!
+    updated_with: "%{item} foi atualizado com sucesso!"
+    destroyed: Item excluído com sucesso!
+    destroyed_with: "%{item} foi excluído com sucesso!"
+    not_authorized: Você não está autorizado a executar essa ação.
+    email_delivered: Email enviado com sucesso!
+    email_not_delivered: Erro ao enviar email. Tente novamente
+    please_sign_in: Identifique-se
+    remember: Lembre-se de mim
+    log_in: Entrar
+    your_updated_data: Seus dados foram atualizados por
+    welcome: Bem-Vindo
+    you_can_confirm_your_account_email: Você pode confirmar o e-mail de sua conta através do link abaixo
+    hello: Olá
+    notify_your_password_has_been_changed: Notificamos que a sua senha foi alterada.
+    link_to_change_your_password: Alguém solicitou um link para alterar sua senha. Você pode fazer isso através do link abaixo.
+    you_request_this: Se você não solicitou isso, ignore este e-mail.
+    your_not_password_change: Sua senha não será alterada até que você acesse o link acima e crie um novo.
+    change_your_password: Mude sua senha
+    change_my_password: Mude minha senha
+    forgot_your_password?: Esqueceu sua senha?
+    send_me_reset_password_instructions: Envie-me as instruções de redefinição de senha
+    we_need_your_current_password_to_confirm_your_changes: Precisamos da sua senha atual para confirmar as alterações
+    cancel_my_account: Para cancelar minha conta
+    sign_up: Inscreva-se
+    confirmation_instructions?: Não recebeu as instruções de confirmação?
+    unlock_instructions?: Não recebeu as instruções de desbloqueio?
+    resend_unlock_instructions: Reenviar instruções de desbloqueio
+    example_category: Ex Animais / Pet
+    new_comments!: Novos Comentários
+    view_details: Ver detalhes
+    new_tasks: Novas Taferas
+    new_buy: Novas compras
+    support_tickets: Cupons de apoio
+    area_chart_example: Exemplo de gráfico de área.
+    another_action: Outra ação
+    something_else_here: Algo mais aqui
+    separated_link: link separado
+    notifications_panel: Painel de Notificação
+    new_comment: Novo Comentário
+    new_followers: Novos Seguidores
+    message_sent: Messagens Enviadas
+    minutes_ago: Minutos Atrás
+    server_rebooted: Servidor reinicializado
+    server_crashed: Servidor Desligado
+    server_not_responding: Servidor Não Responde
+    new_order: Nova ordem
+    payment_received: Pagamento Recebido
+    view_all_alerts: Visualizar todos alertas
+    bar_chart_example: Exemplo de gráfico de barras
+    donut_chart_example: Exemplo de gráfico rosca
+    diagram: Diagrama ER
+    resend_confirmation_instructions: Reenviar Instruções de Confirmação
+    confirmation_my_acount: Confirmar minha conta
+    reset_password: Redefinição de Senha
+    donot_have_an_account: Você não tem uma conta!
+    leave_your_comment: Deixe seu comentário
+    sign_in_to_comment: Efetue o login para comentar
+    editing_ad: Editando Anúncio
+    listing_ads: Listando Anúncios
+    your_account_blocked_because_of_too_many_unsucessful: Sua conta foi bloqueada por conta de um número excessivo de tentativas sem sucesso de login.
+    click_the_link_below_to_unlock_your_account: Clique no link abaixo para desbloquear a sua conta
+    unblock_my_account: Desbloquear minha conta
+    requested_link_to_change_password: Alguém requisitou um link para alterar a senha. Você pode fazer isso através do link abaixo
+    alter_my_password: Altere minha senha
+    if_you_not_order_this_ignore_this_email: Se você não requisitou isso, por favor ignore esse email
+    your_password_will_not_be_changed_if: Sua senha não será alterada se você não acessar esse link e cadastrar uma nova senha
+    notification_your_password_has_changed: Nós estamos te contactando para notificá-lo que a sua senha foi alterada
+    verify_your_account_through_the_link_below: Confirme sua conta através do link abaixo
+

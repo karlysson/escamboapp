@@ -1,0 +1,18 @@
+<% @ad.comments.each do |comment| %>
+
+  <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <% if (current_member) && (comment.member.id == current_member.id) %>
+                <%= rating_for_user @ad, current_member, 'quality', star_path: '/images/ratyrate' %>
+            <% end %>
+            <strong> <%= comment.member.email %> </strong>
+            <span class="pull-right">
+               <strong> <%= time_ago_in_words(comment.created_at) %> </strong>
+            </span>
+            <p><%= comment.body %></p>
+        </div>
+    </div>
+  <hr>
+
+<% end %>

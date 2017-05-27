@@ -1,0 +1,23 @@
+en:
+  enums:
+    admin:
+      role:
+        full_access: Full Access
+        restricted_access: Restricted Access
+    order:
+      status:
+        requested: Requested
+        waiting: Waiting
+        analysing: Analysing
+        paid: Paid
+        avaliable: Avaliable
+        dispute: Dispute
+        returned: Returned
+        canceled: Canceled
+        debited: Debited
+        temporary_retention: Temporary Retention
+    ad:
+      status:
+        active: Active
+        processing: Processing
+        sold: Sold

@@ -1,0 +1,80 @@
+es:
+  messages:
+    confirm: Está seguro?
+    confirm_with: Quieres eliminar (<b>%{item}</b>)?
+    listing: Listado %{model}
+    editing: Edición %{model}
+    new: Nuevo %{model}
+    errors: ocurrido...
+    created: Tema creado!
+    created_with: "%{item} Fue creado con éxito!"
+    updated: Artículo actualizado correctamente!
+    updated_with: "%{item} Se ha actualizado correctamente!"
+    destroyed: Artículo eliminado correctamente!
+    destroyed_with: "%{item} Fue eliminado correctamente!"
+    not_authorized: Usted no está autorizado para realizar esta acción.
+    email_delivered: Email enviado con éxito!
+    email_not_delivered: Error al enviar el correo electrónico. Inténtalo de nuevo
+    please_sign_in: identifíquese
+    remember: Recuérdame
+    log_in: iniciar sesión
+    your_updated_data: Sus datos se ha actualizado por
+    welcome: Bienvenido
+    you_can_confirm_your_account_email: Puede confirmar el correo electrónico a través de su cuenta en el siguiente enlace
+    hello: Hola
+    notify_your_password_has_been_changed: Notificamos que su contraseña ha sido cambiada.
+    link_to_change_your_password: Alguien pidió un enlace para cambiar su contraseña. Esto se puede hacer a través del siguiente enlace.
+    you_request_this: Si usted no ha solicitado este, caso omiso de este correo electrónico.
+    your_not_password_change: Su contraseña no cambiará hasta que acceda al enlace anterior y crear una nueva.
+    change_your_password: Cambiar su contraseña
+    change_my_password: Mude minha senha
+    forgot_your_password?: Cambiar mi contraseña?
+    send_me_reset_password_instructions: Envíame el restablecimiento de contraseña instrucciones
+    we_need_your_current_password_to_confirm_your_changes: Necesitamos su contraseña actual para confirmar los cambios
+    cancel_my_account: Para cancelar mi cuenta
+    sign_up: Contratar
+    confirmation_instructions?: No se ha recibido instrucciones para confirmar?
+    unlock_instructions?: No recibió las instrucciones de desbloqueo?
+    resend_unlock_instructions: La instrucción de desbloqueo hacia delante
+    example_category: Ex Animales
+    new_comments!: Los comentarios nuevos
+    view_details: Ver detalles
+    new_tasks: Las nuevas tareas
+    new_buy: Nuevas compras
+    support_tickets: Apoyo cupones
+    area_chart_example: Área del gráfico Ejemplo.
+    another_action: Otra acción
+    something_else_here: Algo más aquí
+    separated_link: Enlace separado
+    notifications_panel: Panel de notificaciones
+    new_comment: Nuevo comentario
+    new_followers: Nuevos seguidores
+    message_sent: Los mensajes enviados
+    minutes_ago: Hace minutos
+    server_rebooted: Reinicia el servidor
+    server_crashed: Apagado del servidor
+    server_not_responding: El servidor no responde
+    new_order: Nueva orden
+    payment_received: Pago recibido
+    view_all_alerts: Otras alertas
+    bar_chart_example: Ejemplo gráfico de barras
+    donut_chart_example: Ejemplo carta de hilos
+    diagram: Diagrama de relación de Entidad
+    resend_confirmation_instructions: Instrucciones de Delantero Confirmación
+    confirmation_my_acount: Verificar mi cuenta
+    reset_password: Restablecer contraseña
+    donot_have_an_account: Usted no tiene una cuenta!
+    leave_your_comment: Deje su comentario
+    sign_in_to_comment: Inicia sesión para comentar
+    editing_ad: Anuncio de edición
+    listing_ads: Anuncios de la lista
+    your_account_blocked_because_of_too_many_unsucessful: Su cuenta ha sido bloqueada debido a demasiados intentos fallidos para iniciar sesión.
+    click_the_link_below_to_unlock_your_account: Haga clic en el enlace de abajo para desbloquear su cuenta
+    unblock_my_account: Desbloquear mi cuenta
+    requested_link_to_change_password: Alguien pidió un enlace para cambiar su contraseña. Puede hacerlo a través del siguiente enlace
+    alter_my_password: Cambiar mi contraseña
+    if_you_not_order_this_ignore_this_email: Si usted no ha solicitado este, por favor, ignora este correo electrónico
+    your_password_will_not_be_changed_if: Su contraseña no cambiará si no accede a este enlace y registra una nueva contraseña
+    notification_your_password_has_changed: Estamos en contacto con usted para notificarle que su contraseña ha sido cambiada
+    verify_your_account_through_the_link_below: Verificar su cuenta a través del siguiente enlace
+
