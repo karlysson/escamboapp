@@ -96,6 +96,9 @@ gem "pagseguro-oficial", "~> 2.5.0"
 # Prawn Handler for Rails. Handles and registers pdf formats.
 gem 'prawn-rails'
 
+# PDF generator (from HTML) plugin for Ruby on Rails
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 
 
 

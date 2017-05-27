@@ -27,13 +27,19 @@ sudo apt-get update
 sudo apt-get install graphviz
 ```
 
-* Para Gerar PDF do Ruby puro estou utilizando a gem prawn. Para isso você deve installar o prawn no seu servidor ou maquina.
+### Para Gerar PDF do Ruby puro estou utilizando a gem prawn. Para isso você deve installar o prawn no seu servidor ou maquina.
 
 ```
 gem install prawn
 ```
-Documentação do Prawn você encontra no site http://prawnpdf.org/manual.pdf
+* Documentação do Prawn você encontra no site http://prawnpdf.org/manual.pdf
 
-### Para Gerar o pdf usando Rails estou usando a gem prawn-rails
+
+
+#### Para Gerar o pdf usando Rails estou usando a gem prawn-rails
 
 * vou gerar um arquivo com todas as categorias cadastradas o backoffice.
+
+
+
+##### Para Gerar o pdf dos anúncios estou usando a gem Wicked PDF

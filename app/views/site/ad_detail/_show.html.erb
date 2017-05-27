@@ -27,6 +27,7 @@
 
         <h4><a href="#"><%= @ad.title %></a></h4>
         <%= @ad.description.html_safe %>
+        <%= link_to t('messages.print_pdf'), site_ad_detail_path(format: :pdf), class: "btn btn-danger" %>
     </div>
 </div>
 

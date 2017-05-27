@@ -8,5 +8,13 @@ class Site::AdDetailController < SiteController
         #     format.json {render json: @ad, except: [:description, :description_md]}
         #     format.xml {render xml: @ad}
         # end
+
+        respond_to do |format|
+            format.html
+            format.pdf do
+            render pdf: "ad_detail",
+            layout: 'pdf'
+        end
+      end
     end
 end
