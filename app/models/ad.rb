@@ -1,5 +1,8 @@
 class Ad < ActiveRecord::Base
 
+  #Searchkick gem
+  searchkick
+
   #Statuses
   enum status: [:active, :processing, :sold]
 
@@ -25,9 +28,10 @@ class Ad < ActiveRecord::Base
    scope :descending_order, ->(page) {
     order(created_at: :desc).page(page).per(QTD_PER_PAGE)
   }
-   scope :search, ->(q, page){
-    where("lower(title) LIKE ?", "%#{q.downcase}%").page(page).per(QTD_PER_PAGE)
-   }
+
+   # scope :search, ->(q, page){
+   #  where("lower(title) LIKE ?", "%#{q.downcase}%").page(page).per(QTD_PER_PAGE)
+   # }
 
    scope :to_the, ->(member) {where(member: member)}
    scope :by_category, ->(id, page) {where(category: id).page(page).per(QTD_PER_PAGE)}

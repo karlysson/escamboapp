@@ -46,3 +46,7 @@ gem install prawn
 
 
 ## Para Gerar Graficos utilizei a gem Chartkick
+
+*** para Trabalhar com Full text Search, precisa-se instalar o elasticsearch.
+
+Siga as instruções do site oficial. https://www.elastic.co
