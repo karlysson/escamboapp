@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 #  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
 #  end
 
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
+
 
   post '/rate' => 'rater#create', :as => 'rate'
   get 'backoffice', to: 'backoffice/dashboard#index'

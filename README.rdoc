@@ -11,7 +11,7 @@ Aqui ficará o código fonte do aplicativo "Escambo APP" desenvolvido por karlys
 * Bootstrap.
 
 
-## Dependências do projeto
+# Dependências do projeto
 
 * ImageMagick (https://www.imagemagick.org)
 
@@ -27,7 +27,7 @@ sudo apt-get update
 sudo apt-get install graphviz
 ```
 
-### Para Gerar PDF do Ruby puro estou utilizando a gem prawn. Para isso você deve installar o prawn no seu servidor ou maquina.
+# Para Gerar PDF do Ruby puro estou utilizando a gem prawn. Para isso você deve installar o prawn no seu servidor ou maquina.
 
 ```
 gem install prawn
@@ -36,17 +36,31 @@ gem install prawn
 
 
 
-#### Para Gerar o pdf usando Rails estou usando a gem prawn-rails
+# Para Gerar o pdf usando Rails estou usando a gem prawn-rails
 
 * vou gerar um arquivo com todas as categorias cadastradas o backoffice.
 
 
 
-##### Para Gerar o pdf dos anúncios estou usando a gem Wicked PDF
+# Para Gerar o pdf dos anúncios estou usando a gem Wicked PDF
 
 
-## Para Gerar Graficos utilizei a gem Chartkick
+# Para Gerar Graficos utilizei a gem Chartkick
 
-*** para Trabalhar com Full text Search, precisa-se instalar o elasticsearch.
+* para Trabalhar com Full text Search, precisa-se instalar o elasticsearch.
 
 Siga as instruções do site oficial. https://www.elastic.co
+
+# No Envio de Email, vamos utilizar;
+
+ * Redis  = Como armazenamento de fila em memória
+ * Sidekiq = Como gerenciador de jobs .
+
+```
+sudo apt-get update
+sudo apt-get install redis-server
+
+Para saber se a instalação foi feita corretamente use o comando abaixo.
+
+redis-benchmark -q -n 1000 -c 10 -P 5
+```

@@ -106,6 +106,9 @@ gem "chartkick"
 # Intelligent search made easy with Rails and Elasticsearch
 gem 'searchkick'
 
+# Simple, efficient background processing for Ruby
+gem 'sidekiq'
+
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
