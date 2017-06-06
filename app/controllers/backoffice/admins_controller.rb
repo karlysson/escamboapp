@@ -6,6 +6,8 @@ class Backoffice::AdminsController < BackofficeController
 
   def create
     @admin = Admin.new(params_admin)
+    update_roles
+
     if @admin.save
         redirect_to backoffice_admins_path, notice: "O Administrador (#{@admin.email}) foi Cadastrado com Sucesso."
     else
@@ -31,6 +33,8 @@ class Backoffice::AdminsController < BackofficeController
 
   def update
 
+    update_roles
+
     if @admin.update(params_admin)
       AdminMailer.update_email(current_admin, @admin).deliver_now
       redirect_to backoffice_admins_path, notice: "O Administrador
@@ -43,6 +47,7 @@ class Backoffice::AdminsController < BackofficeController
   def destroy
     authorize @admin
     admin_email = @admin.email
+
     if @admin.destroy
       redirect_to backoffice_admins_path, notice: "O Administrador
                                     (#{@admin.email}) foi Excluido com Sucesso."
@@ -51,12 +56,22 @@ class Backoffice::AdminsController < BackofficeController
     end
   end
 
-  def set_admin
-    @admin = Admin.find(params[:id])
+private
+
+  def remove_all_roles
+    Role.availables.each do |role|
+      @admin.remove_role(role)
+    end
   end
 
+  def update_roles
+    remove_all_roles
+    roles = params[:admin].extract!(:role_ids)
 
-private
+    roles[:role_ids].each do |role|
+      @admin.add_role(role)
+    end
+  end
 
   def set_admin
       @admin = Admin.find(params[:id])

@@ -46,8 +46,8 @@
 
                               <%= text_field_tag(:q, params[:q],
                                 {class:"form-control", placeholder:
-                                    "#{cookies[:search_term] ? cookies[:search_term]
-                                    : t('labels.search_for')}"}) %>
+                                    #"#{cookies[:search_term] ? cookies[:search_term]: t('labels.search_for')}"
+                                    t('labels.search_for')}) %>
 
                               <span class="input-group-btn">
                               <%= submit_tag(t('labels.search'), class: "btn btn-default") %>

@@ -109,6 +109,9 @@ gem 'searchkick'
 # Simple, efficient background processing for Ruby
 gem 'sidekiq'
 
+# Role management library with resource scoping
+gem "rolify"
+
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

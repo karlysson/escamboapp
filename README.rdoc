@@ -64,3 +64,4 @@ Para saber se a instalação foi feita corretamente use o comando abaixo.
 
 redis-benchmark -q -n 1000 -c 10 -P 5
 ```
+# Gerenciamentos de papeis, vamos fazer com a gem rolify.
